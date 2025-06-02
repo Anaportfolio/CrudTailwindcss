@@ -1,4 +1,4 @@
-import Titulo from "./Titulo";
+import Titulo from "../components/Titulo";
 
 interface LayoutProps {
   title: string;
