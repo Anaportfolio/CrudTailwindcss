@@ -1,10 +1,10 @@
 export default class Cliente{
  
-    #id!: string | null
+    #id!: string
     #nome!: string
     #idade!: number
     
-    constructor(nome: string, idade: number, id: string | null = null){
+    constructor(nome: string, idade: number, id: string){
 
         this.#nome = nome
         this.#idade = idade
@@ -13,7 +13,7 @@ export default class Cliente{
 
     // Método vazio
     static vazio(){
-        return new Cliente(' ', 0)
+        return new Cliente(' ', 0, ' ')
     }
 
     // Getters

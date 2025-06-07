@@ -45,7 +45,7 @@ export default function Home() {
       <Layout title={"Conteudo Simples"}>
         {visivel === 'tabela' ? (        <>
           <div className="flex justify-end">
-            <Botao className="mb-4" cor={"green"} onClick={() => novoCliente(cliente)}>Novo Cliente</Botao>
+            <Botao className="mb-4" cor={'green'} onClick={() => novoCliente(cliente)}>Novo Cliente</Botao>
           </div>
           <Tabela clientes={clientes} clienteSelecionado={clienteSelecionado} clienteExcluido={clienteExcluido}></Tabela>
         </>) : (
